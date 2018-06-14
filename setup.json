@@ -1,11 +1,11 @@
 {
-  "name": "",
+  "name": "odium",
   "version": "0.0.1",
-  "description": "",
-  "url": "",
-  "author": "",
-  "author_email": "",
-  "license": "LGPL 3.0",
+  "description": "remote execution framework",
+  "url": "https://github.com/seanharrison/odium",
+  "author": "Sean Harrison",
+  "author_email": "sah@bookgenesis.com",
+  "license": "MPL 2.0",
   "classifiers": [
     "Development Status :: 1 - Planning",
     "Intended Audience :: Developers",

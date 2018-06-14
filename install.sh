@@ -10,6 +10,7 @@ PACKAGE_PARAMS=$1					# any package config parameters can be passed via $1: JSON
 
 # create a python virtual environment for this package
 echo "creating virtual environment in $VENV"
+rm -rf $VENV
 python3 -m virtualenv $VENV
 SYMLINK=$PACKAGE_PATH/venv 			# so you can type "source venv" in the package directory
 rm -f $SYMLINK
