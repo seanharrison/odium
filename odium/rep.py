@@ -3,7 +3,6 @@ provides a REP endpoint listening for REQ.
 Each REQ connection is handled by a coroutine (asyncio) and REP sent when its work is done.
 """
 import logging
-import random
 import zmq.asyncio
 import asyncio
 import uvloop

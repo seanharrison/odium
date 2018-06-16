@@ -1,11 +1,8 @@
 
-import time
 import logging
 import zmq.asyncio
 import asyncio
 import uvloop
-from multiprocessing import Process
-from random import random
 
 log = logging.getLogger(__name__)
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
